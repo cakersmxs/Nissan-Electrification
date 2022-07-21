@@ -1,0 +1,265 @@
+@font-face {
+    font-family: NissanBrandBold;
+    src: url(../assets/fonts/NissanBrand-Bold-d2b9eac77266caaab1b4fbf22ac0a1de.ttf);
+}
+
+@font-face {
+    font-family: NissanBrandRegular;
+    src: url(../assets/fonts/NissanBrand-Regular-f919c13c4a43aecadf6e0b20b694081f.ttf);
+}
+@font-face {
+    font-family: NissanBrandLight;
+    src: url(../assets/fonts/NissanBrand-Light-61f5b2e7d78a48e2892978a8f21e2edb.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    height: 100%;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+main section{
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+h1 {
+    font: 18px 'NissanBrandRegular', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font: 15px 'NissanBrandRegular', sans-serif;
+}
+
+h3 {
+    font: 15px 'NissanBrandLight', sans-serif;
+}
+
+h4 {
+    font: 13px 'NissanBrandBold', sans-serif;
+}
+
+h5 {
+    font: 13px 'NissanBrandRegular', sans-serif;
+}
+
+p {
+    font: 12px 'NissanBrandRegular', sans-serif; 
+    line-height: 18px;
+    letter-spacing: -2%;
+}
+
+
+
+#hero {
+    background: url("../assets/images/image\ bg-mobile.png") no-repeat center;
+    background-size: cover;
+    min-height: 25vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.hero-text {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    top: 120px;
+    left: 50px;
+
+}
+
+.hero-text h2{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.hero-text h3{
+    font-size: 18px;
+}
+
+#steps h1, #benefits h1, #e-feature h1 {
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+#steps-wrapper{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+.per-step{
+    text-align: left;
+    padding: 40px 25px;
+    border: 2px solid #EBEBEB;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.per-step img{
+    height: 42px;
+    width: 42px;
+    margin-bottom: 15px;
+}
+
+.step-description{
+    border-left: 4px solid #C3002F;
+    padding: 5px 10px;
+    min-height: 49px;
+}
+.step-description-visit{
+    display: flex;
+    border-left: 4px solid #C3002F;
+    padding: 15px 15px;
+    min-height: 49px;
+}
+
+.step-description-visit h4{
+    margin-right: 3px;
+}
+
+.step-num img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: -15px;
+    top: 105px;
+}
+
+.inner-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEBEB;
+}
+
+.inner-button-wrapper button, .car-description button{
+    background-color: #C3002F;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.inner-button-wrapper button:first-child{
+    margin-top: 20px;
+}
+
+.inner-button-wrapper button:last-child{
+    margin-bottom: 20px;
+}
+
+#benefit-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.per-benefit{
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEBEB;
+    min-height: 470px;
+    margin-bottom: 10px;
+}
+
+.per-benefit img, .per-benefit h2, .car-description h2{
+    margin-bottom: 20px;
+}
+
+.per-benefit h2 {
+    font-size: 16px;
+}
+
+.per-benefit h2, .per-benefit p{
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.light{
+    font-family: 'NissanBrandLight';
+}
+
+#nissan-ariya{
+    display: flex;
+    flex-direction: column;
+}
+.car-description{
+    display: flex;
+    flex-direction: column;
+}
+.car-description h2{
+    padding-top: 20px;
+}
+.car-description p{
+    padding-bottom: 20px;
+}
+
+.car-description button{
+    margin: 0;
+}
+
+#ariya-specs-wrapper{
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#ariya-specs-inner{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+#ariya-msrp{
+    border-right: 1px solid #C4C4C4;
+    padding-right: 10px;
+}
+
+.ariya-battery{
+    padding-top: 10px
+}
+.boldP{
+    font-family: 'NissanBrandBold', sans-serif;
+}
+
+.bigBoldP{
+    font: 14px 'NissanBrandBold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
